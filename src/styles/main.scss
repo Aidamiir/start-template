@@ -1,0 +1,25 @@
+// переменные =========================================================================================================
+// == плавный scroll ==
+$smooth-scroll: false;
+
+// == цвета ==
+$primary-color: rgb(40, 40, 40);
+$secondary-color: #e0e0e0;
+
+// == настройки шрифта ==
+@import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap');
+$font-family: 'Inter';
+$font-size: 16px;
+
+// == настройки контейнера ==
+$container-width: 1280px;
+$container-paddings: 15px;
+
+// импорты ============================================================================================================
+// == глобальные стили ==
+@import './null.scss';
+@import './global.scss';
+
+// == layout ==
+@import '../components/layout/header/header.scss';
+@import '../components/layout/footer/footer.scss';
